@@ -568,12 +568,6 @@ input[type=number]::-webkit-outer-spin-button {
 	.alert .alert-text{
 		width: 100%;
 	}
-	main .content .box .container-inputs-metrica, main .content .box .container-outputs-metrica{
-		width: 100%;
-	}
-	main .content .box .container-inputs-metrica .box-inputs-metrica .line .label-btn-file{
-		font-size: .75em;
-	}
 }
 
 @media(max-width: 768px){
@@ -622,13 +616,5 @@ input[type=number]::-webkit-outer-spin-button {
 	main .content{
 		width: 100%;
 		min-height: 100vh;
-	}
-	main .content .box .container-btn-metricas .box-metricas{
-		flex-direction: column;
-	}
-
-	main .content .box .container-metricas .box-metricas{
-		
-		flex-direction: column;
 	}
 }
