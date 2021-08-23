@@ -22,6 +22,10 @@ html{
 
 }
 
+iframe{
+	min-height: 700px;
+}
+
 a{
 	color: var(--red-head) !important;
 	text-decoration: none;
@@ -673,6 +677,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media(max-width: 697px){
+	iframe{
+		min-height: 600px;
+	}
 	main{
 		flex-direction: column;
 	}
