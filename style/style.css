@@ -23,8 +23,8 @@ html{
 }
 
 a{
-	color: rgb(0, 104, 201);
-	text-decoration: underline;
+	color: var(--red-head) !important;
+	text-decoration: none;
 }
 
 a:visited {
@@ -250,7 +250,7 @@ main .sidebar ul li a{
 	font-size: 1em;
 	padding: 10px 15px;
 	display: block;
-	color: #ffffff;
+	color: #ffffff !important;
 }
 
 main .sidebar ul li a i{
@@ -260,7 +260,7 @@ main .sidebar ul li a i{
 }
 
 main .sidebar ul li:hover > a{
-	color: var(--red-head);
+	color: var(--red-head) !important;
 }
 
 main .content{
