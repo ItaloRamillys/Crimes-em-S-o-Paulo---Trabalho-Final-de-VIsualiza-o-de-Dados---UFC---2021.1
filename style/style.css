@@ -288,91 +288,6 @@ main .content .box{
 	color: #fff;
 }
 
-/*METRICAS*/
-main .content .box .container-metricas-title{
-  	color: var(--black);    
-	margin: 10px 0;
-	font-size: 20px;
-	font-weight: 600;
-}
-
-main .content .box .container-btn-metricas{
-	width: 100%;
-	margin-bottom: 15px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-main .content .box .container-btn-metricas .box-metricas{
-	max-width: 600px;
-	height: 100%;
-	display: flex;
-	flex-direction: row;
-}
-
-main .content .box .container-btn-metricas .box-metricas .btn-metrica{
-}
-
-main .content .box .container-btn-metricas .box-metricas .btn-metrica:hover{
-}
-
-main .content .box .container-inputs-metrica, main .content .box .container-outputs-metrica{
-	min-height: 300px;
-	width: 80%;
-	padding: 20px;
-	color: var(--black);
-	box-shadow: 0 0 5px 0 rgba(0, 0, 0, .1);
-	font-size: 20px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-main .content .box .container-inputs-metrica .box-inputs-metrica{
-	display: none;
-	margin-bottom: 30px;
-}
-
-main .content .box .container-inputs-metrica .box-inputs-metrica .custom-title{
-	font-size: 1.5rem;
-	font-weight: 600;
-	margin-bottom: 25px;
-	text-align: left;	
-}
-
-main .content .box .container-inputs-metrica .box-inputs-metrica .txt-strong{
-	font-size: 1.25rem;
-	font-weight: 600;
-	margin-bottom: 15px;
-	text-align: left;	
-}
-
-main .content .box .container-inputs-metrica .box-inputs-metrica .line label{
-}
-
-main .content .box .container-inputs-metrica .box-inputs-metrica .line .label-btn-file{
-	border-radius: 3px;
-	border:  1px solid var(--primary);
-	background: #fff;
-	color: var(--primary);
-	padding: 10px;
-	font-size: .9em;
-	cursor: pointer;
-	margin: 10px 0;
-}
-
-main .content .box .container-inputs-metrica .box-inputs-metrica .line .label-btn-file:hover{
-	transition: .3s;
-	background: var(--primary);
-	color: #fff;
-}
-
-main .content .box .container-inputs-metrica .box-inputs-metrica .line input[type='file']{
-	display: none;
-}
-
 button{
 	padding: 10px;
 	outline:none;
@@ -398,11 +313,6 @@ button.b:focus{
 	transition: .3s;
 	background: var(--primary) !important;
 	color: #fff;
-}
-
-.output-box{
-	width: 100%;
-	display: none;
 }
 
 /*BOOT*/
